@@ -14,7 +14,7 @@ RUN npm ci
 
 FROM base AS builder
 WORKDIR /app
-COPY --from=deps /app/mode_modules ./node_modules
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 
