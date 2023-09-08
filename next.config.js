@@ -1,9 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-/* ↓↓↓追加した部分↓↓↓ */
+module.exports = {
+  // ... rest of the configuration.
   output: 'standalone',
-/* ↑↑↑追加した部分↑↑↑ */
 }
-
-module.exports = nextConfig
